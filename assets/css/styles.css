@@ -82,6 +82,11 @@ section p {
 	section {
 		padding: 50px 20px;
 	}
+	section .security {
+		max-width: 60%;
+		padding-bottom: 10px;
+		padding-top: 30px;
+	}
 }
 
 /*Header Styles*/
