@@ -8,6 +8,37 @@
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+    background-color: rgb(144, 145, 148);
+    font-family: cursive;
+    }
+
+    .glow {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    .glow2 {
+    font-size: 14px;
+    color: rgb(49, 45, 45);
+    margin-top: -30px;
+    padding-bottom: 30px;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    }
+
+    @-webkit-keyframes glow {
+    from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    } to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #2d0774, 0 0 40px #234ec5, 0 0 50px #1b6c7a, 0 0 60px #b6def0, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+</style>
 </head>
 <body>
  
@@ -17,15 +48,16 @@
     <div class="hero-content-area">
       <img class="security" style="max-height: 250px; margin-top:-100px; margin-bottom: -50px; padding-bottom: 50px;" src="./assets/img/absg.png" alt="">
   
-      <p>Professional marine-related services.</p>
+      <p class="glow">PROFESSIONAL MARINE RELATED SERVICES</p>
       <ul>
-        <li style="padding-top: 40px;"><h4><i>Crew Transportation</i></h4></li>
+        <li style="padding-top: 20px;"><h4 class="glow">CREW TRANSPORTATION</h4>
         <br>
-        <li><h4><i>Ship Security</i></h4></li>
+        <h4 class="glow">SHIP SECURITY</h4>
         <br>
-        <li><h4><i>Ship Spares</i></h4></li>
+        <h4 class="glow">SHIP SPARES</h4>
         <br>
-        <li><h4><i>Stowaway Searches</i></h4></li>
+        <!-- <li><h4><i>Stowaway Searches</i></h4></li> -->
+        <h4 class="glow">STOWAWAY SEARCHES</h4>
         <img style="padding-top: 40px;" src="assets/img/iso.png" alt="">
       </ul>
       
@@ -33,12 +65,13 @@
   </section>
   
   <section class="destinations">
-    <h3 style="margin-top: -50px;" class="title">Committed to Excellence</h3>
+    <h4 class="glow2">COMITTED TO EXCELLENCE</h4>
+
     <p>ABSG offers services specifically related to the shipping industry, we have been operational within the Port Elizabeth area for more than 17 years and are dedicated to providing the shipping lines and agencies we represent with outstanding service.</p>
     <p>At ABSG we are passionate about service and continue to strive to achieve excellence in every task assigned to us. Due to our work ethic and company vision we have managed to grow while still delivering the same standard of service.</p>
     <hr>
 
-    <a style="color:black" href="stowaway.html">click here</a>
+   
 
     <ul class="grid">
       <li class="small" style="background-image: url(assets/img/h.jpg);"></li>
@@ -48,29 +81,29 @@
     </ul>
   </section>
 
-  <section class="packages">
+  <section class="packages" style="color: white;">
     <h3 class="title">Services We Offer</h3>
     <p>We offer a variety of marine services.</p>
     
     <hr>
 
     <ul class="grid">
-      <li>
+      <li style="color: white;">
         <img src="./assets/img/q.png" alt="example">
         <h4>Crew Transportation</h4>
         <p>Meet and greet, airport transfers, immigration, Doctors, Dentists, crew changes, long distance driving etc.</p>
       </li>
-      <li>
-        <img style="max-width: 50%;" src="./assets/img/sec.png" alt="">
+      <li style="color: white;">
+        <img style="max-width: 80%;" src="./assets/img/sec.png" alt="">
         <h4>Ship Security</h4>
         <p>As per client request. Security guard stationed at gangway, security guards patrolling vessel, stowaway searches on arrival and throughout port stay, stowaway search on departure of vessel</p>
       </li>
-      <li>
+      <li style="color: white;">
         <img style="max-width: 50%;" src="./assets/img/spares.png" alt="">
         <h4>Handling of Ship Spares</h4>
         <p>We receive, handle and deliver ship spares on client's request</p>
       </li>
-      <li>
+      <li style="color: white;">
         <img style="max-width: 50%;" src="./assets/img/s3.png" alt="">
         <h4>Stowaway Searches</h4>
         <p>Guaranteed stowaway searches. Insurance backed, performed by trained search dogs.</p>
@@ -152,9 +185,9 @@
     </form>
   </section> -->
 
-  <footer>
+  <footer style="background-color: rgb(14, 12, 128);>
    
-    <p>ABSG Services © 2021. All Rights Reserved.</p>
+    <p style="color: white;>ABSG Services © 2021. All Rights Reserved.</p>
     <ul>
       <li><a href="#"><i class="fa fa-twitter-square fa-2x"></i></a></li>
       <li><a href="#"><i class="fa fa-facebook-square fa-2x"></i></a></li>
